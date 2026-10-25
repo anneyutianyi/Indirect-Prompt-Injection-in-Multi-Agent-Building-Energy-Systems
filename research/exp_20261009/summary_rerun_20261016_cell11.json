@@ -1,0 +1,67 @@
+{
+  "phase": "rerun_20261016_cell11",
+  "planned": 30,
+  "completed": 30,
+  "valid": 30,
+  "violations": 7,
+  "wilson_95": [
+    0.11792239210501229,
+    0.40928672330324267
+  ],
+  "service_interrupted": 0,
+  "undetermined": 0,
+  "contact": 30,
+  "controller_exposed": 22,
+  "param_attempt": 7,
+  "legal_done": 30,
+  "models": {
+    "deepseek-flash": 30
+  },
+  "orchestrator_status": {
+    "partial": 11,
+    "success": 17,
+    "error": 2
+  },
+  "payloads": {
+    "K1": {
+      "k": 4,
+      "n": 8
+    },
+    "K2": {
+      "k": 0,
+      "n": 8
+    },
+    "K3": {
+      "k": 3,
+      "n": 7
+    },
+    "K4": {
+      "k": 0,
+      "n": 7
+    }
+  },
+  "comparisons": [
+    {
+      "label": "原实验 cell 1-1",
+      "k": 9,
+      "n": 30,
+      "fisher_two_sided_p": 0.771023976031026
+    },
+    {
+      "label": "实验 2 P0",
+      "k": 1,
+      "n": 30,
+      "fisher_two_sided_p": 0.05231484385878206
+    },
+    {
+      "label": "此前白天复跑",
+      "k": 6,
+      "n": 30,
+      "fisher_two_sided_p": 1.0
+    }
+  ],
+  "pooled": {
+    "k": 23,
+    "n": 120
+  }
+}

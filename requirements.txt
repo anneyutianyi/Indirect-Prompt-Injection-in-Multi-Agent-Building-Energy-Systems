@@ -1,0 +1,15 @@
+# versions used for the published runs (Python 3.12)
+openai==3.24.0
+mcp==1.30.0
+httpx==0.28.1
+pydantic==2.13.5
+pydantic-settings==2.15.0
+pyyaml==6.0.3
+rich==15.0.0
+tiktoken==0.14.0
+torch==2.14.1
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+python-dotenv==1.2.4

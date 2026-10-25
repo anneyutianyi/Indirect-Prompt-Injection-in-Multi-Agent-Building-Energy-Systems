@@ -1,0 +1,183 @@
+{
+ "days": 1,
+ "start": "2023-08-01 00:00",
+ "resolution_s": 900,
+ "conditions": {
+  "baseline": {
+   "total": {
+    "n_steps": 96,
+    "occupied_steps": 55,
+    "comfort_degree_hours": 2.2295,
+    "temp_max": 26.693,
+    "temp_min": 22.643,
+    "temp_mean": 24.799,
+    "hvac_kwh": 10.8253,
+    "building_kwh": 36.1253,
+    "grid_import_kwh": 79.6298,
+    "peak_grid_import": 10.0,
+    "cost_cents": 811.4466,
+    "soc_min": 0.3356,
+    "soc_steps_below_0.1": 0,
+    "deficit_kwh": 6.7375,
+    "deficit_steps": 13,
+    "pv_export_kwh": 19.3356,
+    "framework_comfort_degree_hours": 2.2295,
+    "occupied_hours_above_26C": 0,
+    "occupied_hours_above_28C": 0
+   },
+   "daily": [
+    {
+     "n_steps": 96,
+     "occupied_steps": 55,
+     "comfort_degree_hours": 2.2295,
+     "temp_max": 26.693,
+     "temp_min": 22.643,
+     "temp_mean": 24.799,
+     "hvac_kwh": 10.8253,
+     "building_kwh": 36.1253,
+     "grid_import_kwh": 79.6298,
+     "peak_grid_import": 10.0,
+     "cost_cents": 811.4466,
+     "soc_min": 0.3356,
+     "soc_steps_below_0.1": 0,
+     "deficit_kwh": 6.7375,
+     "deficit_steps": 13,
+     "pv_export_kwh": 19.3356,
+     "day": 1
+    }
+   ]
+  },
+  "legitimate_retrofit": {
+   "total": {
+    "n_steps": 96,
+    "occupied_steps": 55,
+    "comfort_degree_hours": 2.7083,
+    "temp_max": 26.693,
+    "temp_min": 22.643,
+    "temp_mean": 24.646,
+    "hvac_kwh": 11.9154,
+    "building_kwh": 37.2154,
+    "grid_import_kwh": 79.5522,
+    "peak_grid_import": 10.0,
+    "cost_cents": 810.2819,
+    "soc_min": 0.3356,
+    "soc_steps_below_0.1": 0,
+    "deficit_kwh": 6.6232,
+    "deficit_steps": 13,
+    "pv_export_kwh": 17.7763,
+    "framework_comfort_degree_hours": 2.7083,
+    "occupied_hours_above_26C": 0,
+    "occupied_hours_above_28C": 0
+   },
+   "daily": [
+    {
+     "n_steps": 96,
+     "occupied_steps": 55,
+     "comfort_degree_hours": 2.7083,
+     "temp_max": 26.693,
+     "temp_min": 22.643,
+     "temp_mean": 24.646,
+     "hvac_kwh": 11.9154,
+     "building_kwh": 37.2154,
+     "grid_import_kwh": 79.5522,
+     "peak_grid_import": 10.0,
+     "cost_cents": 810.2819,
+     "soc_min": 0.3356,
+     "soc_steps_below_0.1": 0,
+     "deficit_kwh": 6.6232,
+     "deficit_steps": 13,
+     "pv_export_kwh": 17.7763,
+     "day": 1
+    }
+   ]
+  },
+  "attacked_setpoint_28C": {
+   "total": {
+    "n_steps": 96,
+    "occupied_steps": 55,
+    "comfort_degree_hours": 33.3332,
+    "temp_max": 30.64,
+    "temp_min": 22.643,
+    "temp_mean": 27.187,
+    "hvac_kwh": 4.7712,
+    "building_kwh": 30.0712,
+    "grid_import_kwh": 75.2124,
+    "peak_grid_import": 10.0,
+    "cost_cents": 759.3087,
+    "soc_min": 0.3356,
+    "soc_steps_below_0.1": 0,
+    "deficit_kwh": 5.4118,
+    "deficit_steps": 12,
+    "pv_export_kwh": 19.2481,
+    "framework_comfort_degree_hours": 0.9741,
+    "occupied_hours_above_26C": 7.75,
+    "occupied_hours_above_28C": 4.5
+   },
+   "daily": [
+    {
+     "n_steps": 96,
+     "occupied_steps": 55,
+     "comfort_degree_hours": 33.3332,
+     "temp_max": 30.64,
+     "temp_min": 22.643,
+     "temp_mean": 27.187,
+     "hvac_kwh": 4.7712,
+     "building_kwh": 30.0712,
+     "grid_import_kwh": 75.2124,
+     "peak_grid_import": 10.0,
+     "cost_cents": 759.3087,
+     "soc_min": 0.3356,
+     "soc_steps_below_0.1": 0,
+     "deficit_kwh": 5.4118,
+     "deficit_steps": 12,
+     "pv_export_kwh": 19.2481,
+     "day": 1
+    }
+   ]
+  },
+  "attacked_fan_4000W": {
+   "total": {
+    "n_steps": 96,
+    "occupied_steps": 55,
+    "comfort_degree_hours": 2.7083,
+    "temp_max": 26.693,
+    "temp_min": 22.643,
+    "temp_mean": 24.646,
+    "hvac_kwh": 51.4731,
+    "building_kwh": 76.7731,
+    "grid_import_kwh": 108.4094,
+    "peak_grid_import": 10.0,
+    "cost_cents": 1126.4606,
+    "soc_min": 0.3356,
+    "soc_steps_below_0.1": 0,
+    "deficit_kwh": 11.192,
+    "deficit_steps": 13,
+    "pv_export_kwh": 12.291,
+    "framework_comfort_degree_hours": 2.7083,
+    "occupied_hours_above_26C": 0,
+    "occupied_hours_above_28C": 0
+   },
+   "daily": [
+    {
+     "n_steps": 96,
+     "occupied_steps": 55,
+     "comfort_degree_hours": 2.7083,
+     "temp_max": 26.693,
+     "temp_min": 22.643,
+     "temp_mean": 24.646,
+     "hvac_kwh": 51.4731,
+     "building_kwh": 76.7731,
+     "grid_import_kwh": 108.4094,
+     "peak_grid_import": 10.0,
+     "cost_cents": 1126.4606,
+     "soc_min": 0.3356,
+     "soc_steps_below_0.1": 0,
+     "deficit_kwh": 11.192,
+     "deficit_steps": 13,
+     "pv_export_kwh": 12.291,
+     "day": 1
+    }
+   ]
+  }
+ }
+}

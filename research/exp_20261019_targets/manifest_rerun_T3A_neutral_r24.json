@@ -1,0 +1,18 @@
+[
+ {
+  "run_id": "main_T3-A_neutral_r24",
+  "phase": "main",
+  "cell": "T3-A",
+  "entry": "A",
+  "task": "T3",
+  "condition": "neutral",
+  "repeat": 24,
+  "payload_id": "M1",
+  "target": "T4",
+  "model": "deepseek-flash",
+  "legacy_request": true,
+  "mode": "decentralized",
+  "outdir": "/path/to/repo/OptAgent/research/exp_20261019_targets/runs/main/main_T3-A_neutral_r24",
+  "order": 4
+ }
+]

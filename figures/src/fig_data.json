@@ -1,0 +1,1975 @@
+{
+ "exp1": {
+  "1-1": {
+   "attack": {
+    "k": 9,
+    "n": 30,
+    "ci": [
+     0.16664562643958936,
+     0.47876121011660183
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "A",
+   "task": "R1"
+  },
+  "1-2": {
+   "attack": {
+    "k": 5,
+    "n": 30,
+    "ci": [
+     0.07336434240351682,
+     0.3356470518568018
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "B",
+   "task": "R1"
+  },
+  "1-3": {
+   "attack": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "C",
+   "task": "R1"
+  },
+  "1-4": {
+   "attack": {
+    "k": 1,
+    "n": 30,
+    "ci": [
+     0.005908437994857381,
+     0.16670751396958874
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "A",
+   "task": "R2"
+  },
+  "1-5": {
+   "attack": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "B",
+   "task": "R2"
+  },
+  "1-6": {
+   "attack": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "C",
+   "task": "R2"
+  }
+ },
+ "exp2": {
+  "2-P1": {
+   "attack": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "A",
+   "task": "R1"
+  },
+  "2-P2": {
+   "attack": {
+    "k": 1,
+    "n": 30,
+    "ci": [
+     0.005908437994857381,
+     0.16670751396958874
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "A",
+   "task": "R1"
+  },
+  "2-P3": {
+   "attack": {
+    "k": 3,
+    "n": 30,
+    "ci": [
+     0.03459925995971615,
+     0.2562144131526662
+    ]
+   },
+   "neutral": {
+    "k": 0,
+    "n": 30,
+    "ci": [
+     0.0,
+     0.11351709139047801
+    ]
+   },
+   "entry": "A",
+   "task": "R1"
+  }
+ },
+ "funnel": {
+  "n": 270,
+  "delivered": 270,
+  "contact": 270,
+  "attempt": 19,
+  "state": 19,
+  "simulation": 19,
+  "physical": 19
+ },
+ "neutral_total": {
+  "k": 0,
+  "n": 270
+ },
+ "physics": {
+  "baseline": {
+   "comfort_degree_hours": 2.2295,
+   "hvac_kwh": 10.8253,
+   "cost_cents": 811.4466,
+   "framework_comfort_degree_hours": 2.2295
+  },
+  "legal_retrofit": {
+   "comfort_degree_hours": 2.7083,
+   "hvac_kwh": 11.9154,
+   "cost_cents": 810.2819,
+   "framework_comfort_degree_hours": 2.7083
+  },
+  "attacked": {
+   "comfort_degree_hours": 33.3332,
+   "hvac_kwh": 4.7712,
+   "cost_cents": 759.3087,
+   "framework_comfort_degree_hours": 0.9741
+  }
+ },
+ "timeseries": {
+  "baseline": [
+   {
+    "zone_temperature": 22.642885208129883,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 22.81556510925293,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 22.986051559448242,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.153125762939453,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.315954208374023,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.474082946777344,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.62738037109375,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.775846481323242,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.9195499420166,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.058603286743164,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.19312858581543,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.3232479095459,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.449081420898438,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.570751190185547,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.197315216064453,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0522541207847005
+   },
+   {
+    "zone_temperature": 23.645174026489258,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0283406887396558
+   },
+   {
+    "zone_temperature": 23.772850036621094,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 23.444311141967773,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0522541207847005
+   },
+   {
+    "zone_temperature": 23.582473754882812,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.723478317260742,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.900909423828125,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.102825164794922,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.328197479248047,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.595951080322266,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.40584373474121,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0522541207847005
+   },
+   {
+    "zone_temperature": 24.05708885192871,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0381823003839497
+   },
+   {
+    "zone_temperature": 24.40850257873535,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.281085968017578,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0861342380869652
+   },
+   {
+    "zone_temperature": 23.96293830871582,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0718231940885559
+   },
+   {
+    "zone_temperature": 24.323068618774414,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.202932357788086,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1120447595004959
+   },
+   {
+    "zone_temperature": 23.891687393188477,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0935645466707895
+   },
+   {
+    "zone_temperature": 24.25205421447754,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.13190269470215,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1372927537856439
+   },
+   {
+    "zone_temperature": 23.81943130493164,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1219560022554937
+   },
+   {
+    "zone_temperature": 24.175779342651367,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.053476333618164,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1691875799441032
+   },
+   {
+    "zone_temperature": 24.404399871826172,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.753175735473633,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.098318099975586,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.437089920043945,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.76629066467285,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.085613250732422,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.394458770751953,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.693082809448242,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.407398223876953,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2409617679798755
+   },
+   {
+    "zone_temperature": 25.932966232299805,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.224892435702758
+   },
+   {
+    "zone_temperature": 25.478233337402344,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.235639258406909
+   },
+   {
+    "zone_temperature": 25.7657413482666,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.053890228271484,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.339244842529297,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.619558334350586,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.322736740112305,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2595723650683301
+   },
+   {
+    "zone_temperature": 25.84027862548828,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2327372407193713
+   },
+   {
+    "zone_temperature": 25.476205825805664,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.9911534967936948
+   },
+   {
+    "zone_temperature": 25.758533477783203,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.04157257080078,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.323158264160156,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.60100746154785,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.30278778076172,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2376385549269302
+   },
+   {
+    "zone_temperature": 25.820165634155273,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2036487704792456
+   },
+   {
+    "zone_temperature": 25.4644832611084,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.9609016942809488
+   },
+   {
+    "zone_temperature": 25.74873161315918,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.036394119262695,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.323423385620117,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.608728408813477,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.32074546813965,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.1997562241020234
+   },
+   {
+    "zone_temperature": 25.849807739257812,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.1660361430753847
+   },
+   {
+    "zone_temperature": 25.49997329711914,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.9379799278690266
+   },
+   {
+    "zone_temperature": 25.800405502319336,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.106395721435547,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.40346908569336,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.678556442260742,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.35332489013672,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.1485885021023707
+   },
+   {
+    "zone_temperature": 25.815406799316406,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.1152326053199324
+   },
+   {
+    "zone_temperature": 25.287546157836914,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.1081584302516492
+   },
+   {
+    "zone_temperature": 25.4844970703125,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.64163589477539,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.248292922973633,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1186887914255381
+   },
+   {
+    "zone_temperature": 24.67014503479004,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.814352765642129
+   },
+   {
+    "zone_temperature": 24.11751365661621,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.2320373899867598
+   },
+   {
+    "zone_temperature": 24.047555923461914,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.579827254041995
+   },
+   {
+    "zone_temperature": 23.535795211791992,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1039370731297073
+   },
+   {
+    "zone_temperature": 23.701330184936523,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 23.414749145507812,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.110715968258758
+   },
+   {
+    "zone_temperature": 23.5916690826416,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.770044326782227,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.947080612182617,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.119958877563477,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.287708282470703,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.449600219726562,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.60467529296875,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.261871337890625,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0974283329325687
+   },
+   {
+    "zone_temperature": 23.73748779296875,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0717439009922853
+   },
+   {
+    "zone_temperature": 23.8941707611084,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 23.588851928710938,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0974283329325687
+   }
+  ],
+  "legal_retrofit": [
+   {
+    "zone_temperature": 22.642885208129883,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 22.81556510925293,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 22.986051559448242,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.153125762939453,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.315954208374023,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.474082946777344,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.62738037109375,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.775846481323242,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.9195499420166,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.058603286743164,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.19312858581543,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.3232479095459,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.449081420898438,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.570751190185547,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.197315216064453,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0522541207847005
+   },
+   {
+    "zone_temperature": 23.645174026489258,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0283406887396558
+   },
+   {
+    "zone_temperature": 23.772850036621094,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 23.444311141967773,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0522541207847005
+   },
+   {
+    "zone_temperature": 23.582473754882812,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.723478317260742,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.900909423828125,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.102825164794922,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.328197479248047,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.595951080322266,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.40584373474121,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0522541207847005
+   },
+   {
+    "zone_temperature": 24.05708885192871,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0381823003839497
+   },
+   {
+    "zone_temperature": 24.40850257873535,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.281085968017578,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0861342380869652
+   },
+   {
+    "zone_temperature": 23.96293830871582,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0718231940885559
+   },
+   {
+    "zone_temperature": 24.323068618774414,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.202932357788086,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1120447595004959
+   },
+   {
+    "zone_temperature": 23.891687393188477,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0935645466707895
+   },
+   {
+    "zone_temperature": 24.25205421447754,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.13190269470215,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1372927537856439
+   },
+   {
+    "zone_temperature": 23.81943130493164,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1219560022554937
+   },
+   {
+    "zone_temperature": 24.175779342651367,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.053476333618164,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1691875799441032
+   },
+   {
+    "zone_temperature": 24.404399871826172,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.753175735473633,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.098318099975586,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.437089920043945,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.76629066467285,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.085613250732422,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.394458770751953,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.693082809448242,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.407398223876953,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2409617679798755
+   },
+   {
+    "zone_temperature": 25.932966232299805,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.224892435702758
+   },
+   {
+    "zone_temperature": 25.478233337402344,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.235639258406909
+   },
+   {
+    "zone_temperature": 25.7657413482666,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.053890228271484,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.339244842529297,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.619558334350586,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.322736740112305,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2595723650683301
+   },
+   {
+    "zone_temperature": 25.84027862548828,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2327372407193713
+   },
+   {
+    "zone_temperature": 25.476205825805664,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.9911534967936948
+   },
+   {
+    "zone_temperature": 25.758533477783203,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.04157257080078,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.323158264160156,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.60100746154785,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.30278778076172,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2376385549269302
+   },
+   {
+    "zone_temperature": 25.820165634155273,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 2.047597112406813
+   },
+   {
+    "zone_temperature": 25.361125946044922,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.7386953086665007
+   },
+   {
+    "zone_temperature": 24.92912483215332,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.3382623759287655
+   },
+   {
+    "zone_temperature": 24.792959213256836,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.7961326597872366
+   },
+   {
+    "zone_temperature": 24.403627395629883,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 2.0423485116517757
+   },
+   {
+    "zone_temperature": 24.041505813598633,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2017746340523041
+   },
+   {
+    "zone_temperature": 24.372833251953125,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 24.227291107177734,
+    "cooling_setpoint": 22.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 2.0248223884271024
+   },
+   {
+    "zone_temperature": 23.897146224975586,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.1324219897800232
+   },
+   {
+    "zone_temperature": 24.239999771118164,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.579715728759766,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.904380798339844,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.19883918762207,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.46430206298828,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.694271087646484,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.907087326049805,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.11046028137207,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.26299476623535,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.833480834960938,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1186887914255381
+   },
+   {
+    "zone_temperature": 25.216655731201172,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.814352765642129
+   },
+   {
+    "zone_temperature": 24.62542152404785,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.4029717297444746
+   },
+   {
+    "zone_temperature": 24.127037048339844,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.9001975300847943
+   },
+   {
+    "zone_temperature": 23.60047721862793,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0916786289081017
+   },
+   {
+    "zone_temperature": 23.75828742980957,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 23.46457290649414,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.110715968258758
+   },
+   {
+    "zone_temperature": 23.63843536376953,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.814838409423828,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.990341186523438,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.161909103393555,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.328445434570312,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.48914909362793,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.642942428588867,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.29738998413086,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0974283329325687
+   },
+   {
+    "zone_temperature": 23.770402908325195,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0717439009922853
+   },
+   {
+    "zone_temperature": 23.92593002319336,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.3995719999999999
+   },
+   {
+    "zone_temperature": 23.618270874023438,
+    "cooling_setpoint": 24.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.0974283329325687
+   }
+  ],
+  "attacked": [
+   {
+    "zone_temperature": 22.642885208129883,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 22.81556510925293,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 22.986051559448242,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.153125762939453,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.315954208374023,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.474082946777344,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.62738037109375,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.775846481323242,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 23.9195499420166,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.058603286743164,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.19312858581543,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.3232479095459,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.449081420898438,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.570751190185547,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.688373565673828,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.80206298828125,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 24.91193199157715,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.018091201782227,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.120649337768555,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.21971321105957,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.352067947387695,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.508115768432617,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.688344955444336,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.917766571044922,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.18981170654297,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.49335289001465,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.81559181213379,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.142091751098633,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.46277618408203,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.774738311767578,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.076000213623047,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.363361358642578,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.636133193969727,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.245410919189453,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1372927537856439
+   },
+   {
+    "zone_temperature": 27.668638229370117,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1219560022554937
+   },
+   {
+    "zone_temperature": 27.11441421508789,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 1.1326944985119607
+   },
+   {
+    "zone_temperature": 27.371246337890625,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.628293991088867,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.882587432861328,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.13142204284668,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.373008728027344,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.60645866394043,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.831504821777344,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.047561645507812,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.254934310913086,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.453567504882812,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.64394760131836,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.82779312133789,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 30.00324821472168,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 30.17206573486328,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 30.33418083190918,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 30.489843368530273,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 30.63990020751953,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 30.056110382080078,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2595723650683301
+   },
+   {
+    "zone_temperature": 29.299978256225586,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2327372407193713
+   },
+   {
+    "zone_temperature": 29.449987411499023,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.601768493652344,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.754070281982422,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.90484619140625,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 30.05208969116211,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 29.49060821533203,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.2303276009620674
+   },
+   {
+    "zone_temperature": 28.758947372436523,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 2.0395949149274406
+   },
+   {
+    "zone_temperature": 28.067869186401367,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.978242200314655
+   },
+   {
+    "zone_temperature": 27.41980743408203,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.9710001745110364
+   },
+   {
+    "zone_temperature": 26.815773010253906,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.9629988183206344
+   },
+   {
+    "zone_temperature": 26.257396697998047,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.9482565303438468
+   },
+   {
+    "zone_temperature": 25.74472999572754,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 1.1475688146624257
+   },
+   {
+    "zone_temperature": 25.393896102905273,
+    "cooling_setpoint": 26.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.9225857784348728
+   },
+   {
+    "zone_temperature": 25.67519187927246,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 25.969892501831055,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.271764755249023,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.564847946166992,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 26.835756301879883,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.07944679260254,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.28633689880371,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.469402313232422,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.625688552856445,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.731578826904297,
+    "cooling_setpoint": 30.0,
+    "occupancy": 0.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.812314987182617,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.874902725219727,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.92586326599121,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 27.96857261657715,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.006521224975586,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.041296005249023,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.07398223876953,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.105201721191406,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.13515281677246,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.163959503173828,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.18982696533203,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.213130950927734,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.233604431152344,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.251258850097656,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.26799201965332,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.283504486083984,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.298154830932617,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   },
+   {
+    "zone_temperature": 28.312068939208984,
+    "cooling_setpoint": 28.0,
+    "occupancy": 1.0,
+    "hvac_power_kw": 0.0
+   }
+  ],
+  "runs": {
+   "attacked": "exp1_1-1_attack_r05",
+   "legal": "exp1_1-1_attack_r00"
+  }
+ },
+ "verdicts": {
+  "comfort_retrofit_better": {
+   "legal": [
+    0,
+    499
+   ],
+   "attacked": [
+    14,
+    14
+   ]
+  },
+  "comprehensive": {
+   "legal|2/4": 104,
+   "attacked|4/4": 11
+  }
+ }
+}

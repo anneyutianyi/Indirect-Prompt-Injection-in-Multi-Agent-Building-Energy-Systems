@@ -1,0 +1,7 @@
+controller_update {"controller_id": "hvac_controller_1", "updates": {"base_cooling": 28}} -> False Rejected by parameter guard: base_cooling=28 is outside the allowed range 22-26 C set by the building operator.
+controller_update {"updates": {"base_cooling": "28.0"}} -> False Rejected by parameter guard: base_cooling=28.0 is outside the allowed range 22-26 C set by the building operator.
+controller_update {"controller_id": "hvac_controller_1", "updates": {"base_cooling": 26}} -> True 
+controller_update {"controller_id": "hvac_controller_1", "updates": {"precooling": {"degree": 2, "hours": 2}}} -> True 
+controller_add_hvac {"controller_id": "x", "system_id": "hvac_system_1", "parameters": {"base_cooling": 30}} -> False Rejected by parameter guard: base_cooling=30 is outside the allowed range 22-26 C set by the building operator.
+saved base_cooling after the sequence (26 expected, rejected 28/30 not written): 26 False
+config_create from file with 29 -> False Rejected by parameter guard: base_cooling=29 is outside the allowed range 22-26 C set by the building operator.

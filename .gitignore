@@ -1,0 +1,27 @@
+# OptAgent, copied by scripts/fetch_optagent.sh
+/src/
+/config/
+/bestopt/
+/card_generator.py
+/API.py
+/OPTAGENT_LICENSE
+# unpacked run archives and new runs
+research/*/runs/
+research/*/runs_new/
+research/*/manifest_*_local.json
+research/*/driver_*.log
+# fonts (download separately, see README)
+figures/src/fonts/
+figures/*.pdf
+figures/*.svg
+figures/png/
+# secrets and caches
+.env
+.env.*
+env.txt
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Saved/
+Scaler/

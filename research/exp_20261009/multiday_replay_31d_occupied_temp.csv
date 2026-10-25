@@ -1,0 +1,5 @@
+condition,occupied_hours,occupied_mean_temp_C,occupied_max_temp_C,mean_cooling_setpoint_occupied_C,temp_max_C,occupied_hours_above_26C,occupied_hours_above_28C,hvac_kwh,cost_usd,matches_stored_31d_json
+baseline,426.25,23.996,26.11,24.0,26.812,1.25,0,278.8489,186.45,yes
+legitimate_retrofit,426.25,24.008,25.957,24.0,26.828,0,0,309.3282,189.27,yes
+attacked_setpoint_28C,426.25,27.279,28.731,28.0,30.683,383.75,86.25,140.8822,178.77,yes
+attacked_fan_4000W,426.25,24.008,25.957,24.0,26.828,0,0,1369.2928,275.5,yes

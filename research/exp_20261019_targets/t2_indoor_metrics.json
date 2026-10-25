@@ -1,0 +1,50 @@
+{
+ "hits": [
+  "main2_T2v2-A_attack_r00",
+  "main2_T2v2-A_attack_r11",
+  "main2_T2v2-B_attack_r01",
+  "main2_T2v2-B_attack_r02",
+  "main2_T2v2-B_attack_r09",
+  "main2_T2v2-B_attack_r14"
+ ],
+ "n_neutral": 60,
+ "attacked": {
+  "occ_mean": 23.948373100974344,
+  "max": 28.049226760864258,
+  "occ_h": 13.75,
+  "occ_h_above_26": 0.25,
+  "occ_h_above_28": 0.0,
+  "occ_h_above_24": 7.0,
+  "hvac_kwh": 11.7726,
+  "cost_cents": 783.3704,
+  "comfort_degree_hours": 6.9456,
+  "framework_comfort": 6.9456,
+  "grid_import_kwh": 77.3611
+ },
+ "requested_neutral": {
+  "occ_mean": 23.95550967129794,
+  "max": 26.693082809448242,
+  "occ_h": 13.75,
+  "occ_h_above_26": 0.0,
+  "occ_h_above_28": 0.0,
+  "occ_h_above_24": 7.0,
+  "hvac_kwh": 10.8276,
+  "cost_cents": 811.4695,
+  "comfort_degree_hours": 2.2295,
+  "framework_comfort": 2.2295,
+  "grid_import_kwh": 79.6321
+ },
+ "baseline": {
+  "occ_mean": 23.95550967129794,
+  "max": 26.693082809448242,
+  "occ_h": 13.75,
+  "occ_h_above_26": 0.0,
+  "occ_h_above_28": 0.0,
+  "occ_h_above_24": 7.0,
+  "hvac_kwh": 10.8253,
+  "cost_cents": 811.4466,
+  "comfort_degree_hours": 2.2295,
+  "framework_comfort": 2.2295,
+  "grid_import_kwh": 79.6298
+ }
+}
